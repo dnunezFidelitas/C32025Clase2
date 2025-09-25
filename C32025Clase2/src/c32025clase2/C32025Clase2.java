@@ -87,7 +87,7 @@ public class C32025Clase2 {
             JOptionPane.showMessageDialog(null, "la segunda condición se cumple b < c : " + " " + b + " < " + c);
         }
         */
-        
+        /*
         String lectura;
         int edad2;
         lectura=JOptionPane.showInputDialog("Digite la edad");
@@ -102,14 +102,36 @@ public class C32025Clase2 {
         }else{
             JOptionPane.showMessageDialog(null, "NO puedo votar");
         }
-            
+            */
         
         
         //edad= Integer.parseInt(JOptionPane.showInputDialog("Digite la edad"));
+        
+        int diaSemana=Integer.parseInt(JOptionPane.showInputDialog("Digite de la semana"));;
+        
+        switch (diaSemana) {
+            case 1:
+                JOptionPane.showMessageDialog(null, "Lunes");
+                break;
+            case 2:
+                JOptionPane.showMessageDialog(null, "Martes");
+                break;
+            case 3:
+                JOptionPane.showMessageDialog(null, "Miercoles");
+                break;
+            case 4:
+                JOptionPane.showMessageDialog(null, "Jueves");
+                break;    
+            default:
+                JOptionPane.showMessageDialog(null, "Nose");
+        }
         
         
         
 
     }
+    
+    
+    
 
 }
